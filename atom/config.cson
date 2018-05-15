@@ -24,6 +24,9 @@
   github: {}
   "grammar-selector": {}
   "one-dark-ui": {}
+  "package-sync":
+    createOnChange: true
+    forceOverwrite: true
   "tree-view":
     autoReveal: true
     squashDirectoryNames: true
