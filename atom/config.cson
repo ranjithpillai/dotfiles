@@ -1,0 +1,31 @@
+"*":
+  "atom-material-ui":
+    colors:
+      abaseColor: "#7e7e7e"
+      predefinedColor: "Grey"
+    ui: {}
+  core:
+    closeEmptyWindows: false
+    disabledPackages: [
+      "spell-check"
+    ]
+    projectHome: "/home/jennifer/Dev"
+    telemetryConsent: "limited"
+    themes: [
+      "atom-material-ui"
+      "atom-material-syntax"
+    ]
+  editor:
+    fontSize: 23
+    softWrap: true
+  "exception-reporting":
+    userId: "bac85255-fede-4f33-95e7-dc460694004e"
+  "git-diff": {}
+  github: {}
+  "grammar-selector": {}
+  "one-dark-ui": {}
+  "tree-view":
+    autoReveal: true
+    squashDirectoryNames: true
+  welcome:
+    showOnStartup: false
