@@ -4,6 +4,9 @@
       abaseColor: "#7e7e7e"
       predefinedColor: "Grey"
     ui: {}
+  "coffee-compile":
+    compileOnSaveWithoutPreview: true
+    noTopLevelFunctionWrapper: false
   core:
     closeEmptyWindows: false
     disabledPackages: [
@@ -15,6 +18,7 @@
       "atom-material-ui"
       "atom-material-syntax"
     ]
+    uriHandlerRegistration: "always"
   editor:
     fontSize: 23
     softWrap: true

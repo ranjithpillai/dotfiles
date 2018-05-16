@@ -3,5 +3,7 @@ packages: [
   "atom-material-syntax-dark"
   "atom-material-syntax-light"
   "atom-material-ui"
+  "coffee-compile"
+  "file-watcher"
   "package-sync"
 ]
