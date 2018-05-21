@@ -11,6 +11,7 @@
     closeEmptyWindows: false
     disabledPackages: [
       "spell-check"
+      "autocomplete-plus"
     ]
     projectHome: "/home/jennifer/Dev"
     telemetryConsent: "limited"
