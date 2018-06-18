@@ -62,3 +62,12 @@
       	- TODO Cherry pick to release
       	- TODO Cherry pick accepted
     """
+
+  'Documentation':
+    'prefix': 'doc'
+    'body': """
+      - TODO Documentation ${1:title}
+      	- TODO Write
+      	- TODO Push to Wiki
+      	- TODO Wiki has it
+    """
