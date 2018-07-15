@@ -71,3 +71,7 @@
       	- TODO Push to Wiki
       	- TODO Wiki has it
     """
+
+  'Link':
+    'prefix': 'link'
+    'body': "[${1:text}](${2:url})"
