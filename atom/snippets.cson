@@ -23,7 +23,10 @@
 '.source.gfm, .text.plain':
   'Day':
     'prefix': 'day'
-    'body': '### ${1:Tag}, der ${2:Tag}. ${3:Monat} 2018'
+    'body': """
+      ### ${1:Tag}, der ${2:Tag}. ${3:Monat} 2018
+
+    """
 
   'Goal':
     'prefix': 'goal'
@@ -35,7 +38,12 @@
 
   'Task':
     'prefix': 'task'
-    'body': '- TODO Task ${1:id} ${2:title}'
+    'body': """
+      - TODO Task ${1:id} ${2:title}
+      	- TODO Pull request:
+      	- TODO Pull request accepted
+
+    """
 
   'Bug':
     'prefix': 'bug'
@@ -47,6 +55,7 @@
       	- TODO Pull request:
       	- TODO Pull request accepted
       	- TODO Mark bug as resolved and add resolution details
+
     """
 
   'Bug with cherry pick':
@@ -61,6 +70,7 @@
       	- TODO Mark bug as resolved and add resolution details
       	- TODO Cherry pick to release
       	- TODO Cherry pick accepted
+
     """
 
   'Documentation':
@@ -70,4 +80,5 @@
       	- TODO Write
       	- TODO Push to Wiki
       	- TODO Wiki has it
+
     """
