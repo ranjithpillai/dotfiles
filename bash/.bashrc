@@ -114,16 +114,9 @@ if ! shopt -oq posix; then
   fi
 fi
 
-# alias additions (last added 8/30/2016)
-alias open='gnome-open'
+# User-defined aliases.
+# alias open='gnome-open' 
 alias cls='printf "\033c"'
-
-# set up go (10/08/2016)
-export PATH=$PATH:/usr/local/go/bin
-export GOPATH=$HOME/Dev/gocode
-export PATH=$PATH:$GOPATH/bin
-
-# set up ruby (05/08/2017)
-export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
-export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"
+alias workspace='cd /mnt/c/Users/Jennifer/Workspace'
+alias subl='/mnt/c/Program\ Files/Sublime\ Text\ 3/subl.exe'
+alias atom='/mnt/c/Users/Jennifer/AppData/Local/atom/atom.exe'
