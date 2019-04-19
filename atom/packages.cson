@@ -16,6 +16,8 @@ packages: [
   "markdown-scroll-sync"
   "markdown-writer"
   "package-sync"
+  "pen-paper-coffee-syntax"
   "tool-bar"
   "tool-bar-markdown-writer"
+  "Zen"
 ]

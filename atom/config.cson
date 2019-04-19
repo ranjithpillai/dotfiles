@@ -17,8 +17,8 @@
     projectHome: "/home/jennifer/Dev"
     telemetryConsent: "limited"
     themes: [
-      "one-dark-ui"
-      "solarized-dark-syntax"
+      "atom-material-ui"
+      "pen-paper-coffee-syntax"
     ]
     uriHandlerRegistration: "always"
   editor:
