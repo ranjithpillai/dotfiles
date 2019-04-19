@@ -20,69 +20,7 @@
 # Atom Flight Manual:
 # http://flight-manual.atom.io/using-atom/sections/basic-customization/#_cson
 
-'.source.gfm, .text.plain':
-  'Day':
-    'prefix': 'day'
-    'body': """
-      ### ${1:Tag}, der ${2:Tag}. ${3:Monat} 2018
-
-    """
-
-  'Goal':
-    'prefix': 'goal'
-    'body': '- TODO **${1:Item}**'
-
-  'Todo':
-    'prefix': 'todo'
-    'body': '- TODO ${1:title}'
-
-  'Task':
-    'prefix': 'task'
-    'body': """
-      - TODO Task ${1:id} ${2:title}
-      	- TODO Pull request:
-      	- TODO Pull request accepted
-
-    """
-
-  'Bug':
-    'prefix': 'bug'
-    'body': """
-      - TODO Bug ${1:id} ${2:title}
-      	- TODO Problem:
-      	- TODO Cause:
-      	- TODO Fix:
-      	- TODO Pull request:
-      	- TODO Pull request accepted
-      	- TODO Mark bug as resolved and add resolution details
-
-    """
-
-  'Bug with cherry pick':
-    'prefix': 'bugc'
-    'body': """
-      - TODO Bug ${1:id} ${2:title}
-      	- TODO Problem:
-      	- TODO Cause:
-      	- TODO Fix:
-      	- TODO Pull request:
-      	- TODO Pull request accepted
-      	- TODO Mark bug as resolved and add resolution details
-      	- TODO Cherry pick to release
-      	- TODO Cherry pick accepted
-
-    """
-
-  'Documentation':
-    'prefix': 'doc'
-    'body': """
-      - TODO Documentation ${1:title}
-      	- TODO Write
-      	- TODO Push to Wiki
-      	- TODO Wiki has it
-
-    """
-
-  'Link':
+'*':
+  'link':
     'prefix': 'link'
-    'body': "[${1:text}](${2:url})"
+    'body': '[${1:text}](${2:url})'
