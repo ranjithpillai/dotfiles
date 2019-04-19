@@ -1,12 +1,13 @@
 "*":
+  "atom-clock":
+    locale: "de"
+    showClockIcon: true
+    showTooltip: true
   "atom-material-ui":
     colors:
       abaseColor: "#7e7e7e"
       predefinedColor: "Grey"
     ui: {}
-  "coffee-compile":
-    compileOnSaveWithoutPreview: true
-    noTopLevelFunctionWrapper: false
   core:
     closeEmptyWindows: false
     disabledPackages: [
@@ -16,8 +17,8 @@
     projectHome: "/home/jennifer/Dev"
     telemetryConsent: "limited"
     themes: [
-      "atom-material-ui"
-      "atom-material-syntax"
+      "one-dark-ui"
+      "solarized-dark-syntax"
     ]
     uriHandlerRegistration: "always"
   editor:
@@ -28,10 +29,16 @@
   "git-diff": {}
   github: {}
   "grammar-selector": {}
+  "markdown-assistant": {}
+  "markdown-writer":
+    fileExtension: ".md"
   "one-dark-ui": {}
   "package-sync":
     createOnChange: true
     forceOverwrite: true
+  "tool-bar":
+    iconSize: "16px"
+    position: "Bottom"
   "tree-view":
     autoReveal: true
     squashDirectoryNames: true
