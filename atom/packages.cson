@@ -11,6 +11,7 @@ packages: [
   "hey-pane"
   "intentions"
   "linter"
+  "linter-alex"
   "linter-markdown"
   "linter-ui-default"
   "markdown-image-paste"
