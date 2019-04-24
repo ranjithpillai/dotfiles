@@ -26,6 +26,9 @@
     softWrap: true
   "exception-reporting":
     userId: "bac85255-fede-4f33-95e7-dc460694004e"
+  "file-icons":
+    coloured: false
+    tabPaneIcon: false
   "git-diff": {}
   github: {}
   "grammar-selector": {}
