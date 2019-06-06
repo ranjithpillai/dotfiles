@@ -15,7 +15,7 @@ packages: [
   "linter-markdown"
   "linter-ui-default"
   "markdown-image-paste"
-  "markdown-scroll-sync"
+  "markdown-preview-enhanced"
   "markdown-writer"
   "package-sync"
   "pen-paper-coffee-syntax"

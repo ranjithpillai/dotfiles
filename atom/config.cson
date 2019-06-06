@@ -32,7 +32,10 @@
   "git-diff": {}
   github: {}
   "grammar-selector": {}
+  "linter-ui-default":
+    showPanel: true
   "markdown-assistant": {}
+  "markdown-preview-enhanced": {}
   "markdown-writer":
     fileExtension: ".md"
   "one-dark-ui": {}
