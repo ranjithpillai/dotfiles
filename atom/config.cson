@@ -9,6 +9,7 @@
       predefinedColor: "Grey"
     ui: {}
   core:
+    audioBeep: false
     closeEmptyWindows: false
     disabledPackages: [
       "spell-check"
@@ -18,7 +19,7 @@
     telemetryConsent: "limited"
     themes: [
       "atom-material-ui"
-      "pen-paper-coffee-syntax"
+      "atom-material-syntax-dark"
     ]
     uriHandlerRegistration: "always"
   editor:
