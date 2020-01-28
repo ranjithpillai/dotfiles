@@ -3,16 +3,23 @@
 
 Dotfiles for
 
-- Bash shell
-- Sublime Text 3 for Linux and Windows
+- Atom for Windows 10
+- Bash shell for Linux
+- Sublime Text 3 for Linux and Windows 10
 
-## Setting Up
+## Setting up a new machine
 
-`<PATH>` is the file path to the `dotfiles` directory
+Note: `<PATH>` here refers to the full file path to the `dotfiles` directory on your local machine.
 
 ### File System
 
-Show hidden files
+Show hidden files and file extensions.
+
+### Atom
+
+1. Symbolic link to dotfiles
+2. Install Package Sync
+3. Sync packages
 
 ### Bash
 
@@ -31,5 +38,3 @@ Show hidden files
 - Go to the directory where your Sublime `User` folder lives: `cd ~/.config/sublime-text-3/Packages`
 - Remove User file in `sublime-text-3/Packages/User`: `rm -r User`
 - Create a symbolic link to `User` in your sublime dotfiles folder: `ln -s <PATH>/dotfiles/sublime/User ./`
-
-
