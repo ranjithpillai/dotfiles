@@ -1,15 +1,7 @@
 # dotfiles
 > Settings and preferences
 
-Dotfiles for
-
-- Atom for Windows 10
-- Bash shell for Linux
-- Sublime Text 3 for Linux and Windows 10
-
 ## Setting up a new machine
-
-Note: `<PATH>` here refers to the full file path to the `dotfiles` directory on your local machine.
 
 ### File System
 
@@ -17,15 +9,17 @@ Show hidden files and file extensions.
 
 ### Atom
 
-1. Symbolic link to dotfiles
-2. Install Package Sync
-3. Sync packages
+1. Go to Atom's `.atom` directory
+2. Temporarily make a copy of the .atom directory and delete it
+3. Create a symbolic link called `.atom` to the dotfile `dotfile/atom`
+4. Install Package Sync
+5. Sync packages
 
 ### Bash
 
-- Change the directory to where your `.bashrc` file lives: `cd ~`
-- Remove .bashrc file: `rm .bashrc`
-- Create a symbolic link to `.bashrc` in your bash dotfiles folder: `ln -s <PATH>/dotfiles/bash/.bashrc .bashrc`
+1. Go to the directory where the `.bashrc` file lives
+2. Temporarily make a copy of the .bashrc file and delete it
+3. Create a symbolic link called `.bashrc` to the dotfile `dotfile/bash/.bashrc`
 
 ### Git
 
@@ -35,6 +29,7 @@ Show hidden files and file extensions.
 
 ### Sublime Text 3
 
-- Go to the directory where your Sublime `User` folder lives: `cd ~/.config/sublime-text-3/Packages`
-- Remove User file in `sublime-text-3/Packages/User`: `rm -r User`
-- Create a symbolic link to `User` in your sublime dotfiles folder: `ln -s <PATH>/dotfiles/sublime/User ./`
+1. Download package control in Sublime
+2. Go to Sublime's `Package` directory
+3. Temporarily make a copy of the `User` directory and delete it 
+4. Create a symbolic link called `User` to the dotfile `dotfile/sublime/User` directory 
