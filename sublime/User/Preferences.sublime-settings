@@ -1,5 +1,5 @@
 {
-	"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
+	"color_scheme": "Packages/Materialize/schemes/Material Augmented Reaction.tmTheme",
 	"font_size": 14,
 	"ignored_packages":
 	[
@@ -9,6 +9,6 @@
 	[
 		80
 	],
-	"theme": "Material-Theme-Darker.sublime-theme",
+	"theme": "Material Augmented Reaction.sublime-theme",
 	"word_wrap": "true"
 }
