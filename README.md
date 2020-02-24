@@ -1,3 +1,5 @@
+<!--lint disable list-item-indent-->
+
 # dotfiles
 > Settings and preferences
 
@@ -10,10 +12,12 @@ Show hidden files and file extensions.
 ### Atom
 
 1. Go to Atom's `.atom` directory
-2. Temporarily make a copy of the .atom directory and delete it
-3. Create a symbolic link called `.atom` to the dotfile `dotfile/atom`
-4. Install Package Sync
-5. Sync packages
+2. Make a temporary copy of the directory in case something goes wrong
+3. Delete `.atom`
+4. In the same directory, create a symbolic link called `.atom` to the dotfile `dotfile/atom`
+5. Open Atom
+6. Install Package Sync
+7. Sync packages
 
 ### Bash
 
@@ -31,5 +35,5 @@ Show hidden files and file extensions.
 
 1. Download package control in Sublime
 2. Go to Sublime's `Package` directory
-3. Temporarily make a copy of the `User` directory and delete it 
-4. Create a symbolic link called `User` to the dotfile `dotfile/sublime/User` directory 
+3. Temporarily make a copy of the `User` directory and delete it
+4. Create a symbolic link called `User` to the dotfile `dotfile/sublime/User` directory
