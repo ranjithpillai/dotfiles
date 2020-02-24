@@ -1,5 +1,6 @@
 # -------------------------------
 # Atom
+# https://github.com/atom/atom/blob/master/dot-atom/.gitignore
 # -------------------------------
 atom/blob-store
 atom/compile-cache
@@ -10,6 +11,7 @@ atom/.apm
 atom/.node-gyp
 atom/.npm
 atom/nohup.out
+atom/.atom-socket-secret-*
 
 # -------------------------------
 # Sublime Text
