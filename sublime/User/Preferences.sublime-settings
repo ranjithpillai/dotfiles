@@ -1,5 +1,5 @@
 {
-	"color_scheme": "Packages/Materialize/schemes/Material Augmented Reaction.tmTheme",
+	"color_scheme": "Packages/Materialize/schemes/Material Facebook.tmTheme",
 	"font_size": 14,
 	"ignored_packages":
 	[
@@ -9,6 +9,6 @@
 	[
 		80
 	],
-	"theme": "Material Augmented Reaction.sublime-theme",
+	"theme": "Material Facebook.sublime-theme",
 	"word_wrap": "true"
 }
