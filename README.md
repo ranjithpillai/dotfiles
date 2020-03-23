@@ -31,6 +31,9 @@ Show hidden files and file extensions.
 - Set email: `git config --global user.email your-email@domain.com`
 - Set Sublime as the text editor: `git config --global core.editor "subl -n -w"`
 
+### Scoop
+- See `scoop/README.md`
+
 ### Sublime Text 3
 
 1. Download package control in Sublime
