@@ -1,6 +1,6 @@
 #Requires -Version 5
 
-# install scoop
+Write-Host "installing scoop..."
 if (Get-Command scoop -errorAction SilentlyContinue)
 {
     Write-Host "scoop is already installed"
@@ -9,5 +9,14 @@ if (Get-Command scoop -errorAction SilentlyContinue)
     Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.scoop.sh')
 }
 
-# install utilities
-scoop install cmder-full git git-lfs
+Write-Host "adding scoop-extras bucket..."
+scoop bucket add extras
+
+Write-Host "installing utilities..."
+scoop install cmder-full git git-lfs putty
+
+Write-Host "installing Java utilities..."
+scoop install maven
+
+Write-Host "installing Nodejs..."
+scoop install nodejs-lts
