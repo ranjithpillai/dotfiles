@@ -9,3 +9,11 @@ Requires PowerShell 5. As always, read the script before running it. If `scoop` 
 In PowerShell
 
 ``./Install-Scoop.ps1``
+
+## Uninstall Scoop and Packages
+
+Uninstalling scoop will also uninstall all the packages.
+
+``scoop uninstall scoop``
+
+
