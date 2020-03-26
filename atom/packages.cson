@@ -12,6 +12,7 @@ packages: [
   "linter-markdown"
   "linter-ui-default"
   "markdown-scroll-sync"
+  "markdown-table-editor"
   "package-sync"
   "Zen"
 ]
