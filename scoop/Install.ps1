@@ -1,7 +1,7 @@
 #Requires -Version 5
 
 Write-Host "installing scoop..."
-if (Get-Command scoop -errorAction SilentlyContinue)
+if (Get-Command scoop -ErrorAction SilentlyContinue)
 {
     Write-Host "scoop is already installed"
 } else {
