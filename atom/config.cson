@@ -7,6 +7,8 @@
     colors:
       abaseColor: "#7e7e7e"
       predefinedColor: "Grey"
+    tabs:
+      compactTabs: true
     ui: {}
   core:
     audioBeep: false
@@ -19,11 +21,11 @@
     telemetryConsent: "limited"
     themes: [
       "atom-material-ui"
-      "atom-material-syntax-dark"
+      "atom-material-syntax"
     ]
     uriHandlerRegistration: "always"
   editor:
-    fontSize: 23
+    fontSize: 18
     softWrap: true
   "exception-reporting":
     userId: "bac85255-fede-4f33-95e7-dc460694004e"
@@ -37,6 +39,7 @@
     showPanel: true
   "markdown-assistant": {}
   "markdown-preview-enhanced": {}
+  "markdown-table-editor": {}
   "markdown-writer":
     fileExtension: ".md"
   "one-dark-ui": {}
