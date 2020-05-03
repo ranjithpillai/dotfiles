@@ -39,7 +39,8 @@
     showPanel: true
   "markdown-assistant": {}
   "markdown-preview-enhanced": {}
-  "markdown-table-editor": {}
+  "markdown-table-editor":
+    formatOnSave: true
   "markdown-writer":
     fileExtension: ".md"
   "one-dark-ui": {}
