@@ -6,6 +6,7 @@ packages: [
   "atom-material-ui"
   "busy-signal"
   "document-outline"
+  "fairyfloss"
   "file-icons"
   "intentions"
   "linter"

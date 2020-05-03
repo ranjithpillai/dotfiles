@@ -21,7 +21,7 @@
     telemetryConsent: "limited"
     themes: [
       "atom-material-ui"
-      "atom-material-syntax"
+      "fairyfloss"
     ]
     uriHandlerRegistration: "always"
   editor:
