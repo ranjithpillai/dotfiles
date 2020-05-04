@@ -4,13 +4,20 @@
 ;= rem In batch mode, jump to the end of the file
 ;= goto:eof
 ;= Add aliases below here
-e.=explorer .
+
 gl=git log --oneline --all --graph --decorate  $*
 ls=ls --show-control-chars -F --color $*
 pwd=cd
 clear=cls
 history=cat -n "%CMDER_ROOT%\config\.history"
 unalias=alias /d $1
-vi=vim $*
+
+;= rem Navigation
 cmderr=cd /d "%CMDER_ROOT%"
-coordinator=cd C:\Users\Jennifer\Workspace\Taxdoo\Coordinator\  
+home=cd %UserProfile%  
+workspace=cd %UserProfile%\Workspace  
+coordinator=cd %UserProfile%\Workspace\Taxdoo\Coordinator\  
+dotfiles=cd %UserProfile%\Workspace\Core\dotfiles\  
+taxdoo=cd %UserProfile%\Workspace\Taxdoo\
+
+open=explorer
