@@ -11,19 +11,24 @@ Show hidden files and file extensions.
 
 ### Atom
 
-1. Go to Atom's `.atom` directory
-2. Make a temporary copy of the directory in case something goes wrong
-3. Delete `.atom`
-4. In the same directory, create a symbolic link called `.atom` to the dotfile `dotfile/atom`
-5. Open Atom
-6. Install Package Sync
-7. Sync packages
+1. Go to the directory where the `.atom` directory lives
+2. Make a temporary copy of the `.atom` directory and delete it
+3. Create a symbolic link called `.atom` to the dotfile `dotfile/atom`
+4. Open Atom
+5. Install Package Sync
+6. Sync packages
 
 ### Bash
 
 1. Go to the directory where the `.bashrc` file lives
-2. Temporarily make a copy of the .bashrc file and delete it
+2. Make a temporary copy of the .bashrc file and delete it in the directory
 3. Create a symbolic link called `.bashrc` to the dotfile `dotfile/bash/.bashrc`
+
+### Cmder
+
+1. Go to the directory where the `ConEmu.xml` file lives
+2. Make a temporary copy of the ConEmu.xml file and delete it in the directory
+3. Create a symbolic link called `ConEmu.xml` to the dotfile `dotfile/cmder/ConEmu.xml`
 
 ### Git
 
