@@ -1,6 +1,6 @@
 # -------------------------------
 # Atom
-# https://github.com/atom/atom/blob/master/dot-atom/.gitignore
+# based on https://github.com/atom/atom/blob/master/dot-atom/.gitignore
 # -------------------------------
 atom/blob-store
 atom/compile-cache
@@ -12,6 +12,14 @@ atom/.node-gyp
 atom/.npm
 atom/nohup.out
 atom/.atom-socket-secret-*
+
+# -------------------------------
+# Cmder
+# -------------------------------
+cmder/config/.history
+cmder/config/settings
+cmder/config/Readme.md
+cmder/config/user-ConEmu.xml
 
 # -------------------------------
 # Sublime Text
