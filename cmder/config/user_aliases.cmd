@@ -14,10 +14,13 @@ unalias=alias /d $1
 
 ;= rem Navigation
 cmderr=cd /d "%CMDER_ROOT%"
-home=cd %UserProfile%  
-workspace=cd %UserProfile%\Workspace  
-coordinator=cd %UserProfile%\Workspace\Taxdoo\Coordinator\  
-dotfiles=cd %UserProfile%\Workspace\Core\dotfiles\  
+home=cd %UserProfile%
+workspace=cd %UserProfile%\Workspace
+dotfiles=cd %UserProfile%\Workspace\Core\dotfiles\
+notes=cd %UserProfile%\Workspace\Core\development-notes
+notesc=cd %UserProfile%\Workspace\Core\development-notes\2020
+
 taxdoo=cd %UserProfile%\Workspace\Taxdoo\
+coordinator=cd %UserProfile%\Workspace\Taxdoo\Coordinator\
 
 open=explorer
