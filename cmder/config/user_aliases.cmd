@@ -19,8 +19,6 @@ workspace=cd %UserProfile%\Workspace
 dotfiles=cd %UserProfile%\Workspace\Core\dotfiles\
 notes=cd %UserProfile%\Workspace\Core\development-notes
 notesc=cd %UserProfile%\Workspace\Core\development-notes\2020
-
-taxdoo=cd %UserProfile%\Workspace\Taxdoo\
-coordinator=cd %UserProfile%\Workspace\Taxdoo\Coordinator\
+personal=cd %UserProfile%\Workspace\Personal
 
 open=explorer
