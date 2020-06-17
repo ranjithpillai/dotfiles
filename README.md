@@ -1,13 +1,17 @@
 <!--lint disable list-item-indent-->
 
 # dotfiles
-> Settings and preferences
+> Settings, setup, and preferences
 
 ## Setting up a new machine
 
 ### File System
 
 Show hidden files and file extensions.
+
+### Peripherals
+
+See directory for setup
 
 ### Atom
 
@@ -29,6 +33,7 @@ Show hidden files and file extensions.
 1. Go to the directory where the `ConEmu.xml` file lives
 2. Make a temporary copy of the `ConEmu.xml` file and delete it in the directory
 3. Create a symbolic link called `ConEmu.xml` to the dotfile `dotfile/cmder/ConEmu.xml`
+
 
 1. Go to the persistance `config` directory
 2. Make a temporary copy of the `config` directory and delete it
