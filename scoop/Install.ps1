@@ -9,8 +9,12 @@ if (Get-Command scoop -ErrorAction SilentlyContinue)
     Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.scoop.sh')
 }
 
-Write-Host "adding scoop-extras bucket..."
+Write-Host "adding buckets..."
 scoop bucket add extras
+scoop bucket add nerd-fonts
+
+Write-Host "installing font..."
+scoop install firacode
 
 Write-Host "installing utilities..."
 scoop install cmder-full git git-lfs putty openssl make

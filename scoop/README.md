@@ -1,16 +1,16 @@
 # Scoop
 
-Installing tools using [Scoop](https://github.com/lukesampson/scoop)
+Install [Scoop](https://github.com/lukesampson/scoop) and packages.
 
-## Install Scoop and Packages
+Requires PowerShell 5.
 
-Requires PowerShell 5. As always, read the script before running it. If `scoop` or a package is already installed, the installer will skip it.
+## Usage
 
-In PowerShell
+Open PowerShell as an admin. Then run `./Install.ps1`.
 
-``./Install.ps1``
+If `scoop` or a package is already installed, the installer will skip it.
 
-## Uninstall Scoop and Packages
+## Uninstall
 
 Uninstalling scoop will also uninstall all the packages.
 
