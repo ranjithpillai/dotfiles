@@ -15,12 +15,7 @@ See directory for setup
 
 ### Atom
 
-1. Go to the directory where the `.atom` directory lives
-2. Make a temporary copy of the `.atom` directory and delete it
-3. Create a symbolic link called `.atom` to the directory `dotfile/atom`
-4. Open Atom
-5. Install Package Sync
-6. Sync packages
+See `atom/README.md`
 
 ### Bash
 

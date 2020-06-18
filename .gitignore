@@ -3,16 +3,17 @@ temp/
 # -------------------------------
 # Atom
 # -------------------------------
-atom/blob-store
-atom/compile-cache
-atom/dev
-atom/packages
-atom/storage
-atom/.apm
-atom/.node-gyp
-atom/.npm
-atom/nohup.out
-atom/.atom-socket-secret-*
+atom/.atom/.apm
+atom/.atom/.node-gyp
+atom/.atom/.npm
+atom/.atom/blob-store
+atom/.atom/compile-cache
+atom/.atom/dev
+atom/.atom/packages
+atom/.atom/recovery
+atom/.atom/storage
+atom/.atom/.atom-socket-secret-*
+atom/.atom/nohup.out
 
 # -------------------------------
 # Cmder
