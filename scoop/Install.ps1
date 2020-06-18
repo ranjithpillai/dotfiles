@@ -13,13 +13,10 @@ Write-Host "adding scoop-extras bucket..."
 scoop bucket add extras
 
 Write-Host "installing utilities..."
-scoop install cmder-full git git-lfs putty openssl
+scoop install cmder-full git git-lfs putty openssl make
 
 Write-Host "installing Java utilities..."
 scoop install maven
 
 Write-Host "installing Nodejs..."
 scoop install nodejs-lts
-
-Write-Host "installing PHP utilities..."
-scoop install compose
