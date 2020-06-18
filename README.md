@@ -46,7 +46,8 @@ See directory for setup
 - Set Sublime as the text editor: `git config --global core.editor "subl -n -w"`
 
 ### Scoop
-- See `scoop/README.md`
+
+See `scoop/README.md`
 
 ### Sublime Text 3
 
@@ -54,3 +55,7 @@ See directory for setup
 2. Go to Sublime's `Package` directory
 3. Temporarily make a copy of the `User` directory and delete it
 4. Create a symbolic link called `User` to the dotfile `dotfile/sublime/User` directory
+
+### Visual Studio Code
+
+See `vscode/README.md`
