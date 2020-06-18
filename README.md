@@ -11,14 +11,7 @@ See `atom/README.md`
 
 ### Cmder
 
-1. Go to the directory where the `ConEmu.xml` file lives
-2. Make a temporary copy of the `ConEmu.xml` file and delete it in the directory
-3. Create a symbolic link called `ConEmu.xml` to the dotfile `dotfile/cmder/ConEmu.xml`
-
-
-1. Go to the persistance `config` directory
-2. Make a temporary copy of the `config` directory and delete it
-3. Create a symbolic link called `config` to the directory `dotfile/cmder/config`
+See `cmder/README.md`
 
 ### File System
 
