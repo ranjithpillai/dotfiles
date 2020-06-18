@@ -26,7 +26,7 @@ cmder/config/user-ConEmu.xml
 # -------------------------------
 # Sublime Text
 # -------------------------------
-sublime/User/Package Control.cache/
+sublime/User/Package Control.cache
 sublime/User/Package Control.last-run
 sublime/User/Package Control.merged-ca-bundle
 sublime/User/Package Control.user-ca-bundle
