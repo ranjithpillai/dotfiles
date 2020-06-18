@@ -46,10 +46,7 @@ See `scoop/README.md`
 
 ### Sublime Text 3
 
-1. Download package control in Sublime
-2. Go to Sublime's `Package` directory
-3. Temporarily make a copy of the `User` directory and delete it
-4. Create a symbolic link called `User` to the dotfile `dotfile/sublime/User` directory
+See `sublime/README.md`
 
 ### Visual Studio Code
 
