@@ -7,5 +7,6 @@
     "workbench.iconTheme": "material-icon-theme",
     "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
-    "editor.mouseWheelZoom": true
+    "editor.mouseWheelZoom": true,
+    "editor.formatOnSave": true
 }
