@@ -1,34 +1,82 @@
 <!--lint disable list-item-indent-->
 
 # dotfiles
+
 > Settings, setup, and preferences
 
-## Setting up 
+## General Configurations for Windows 10
 
-### Atom
+Configure Windows:
 
-See `atom/README.md`
+- Verify User is expected and not the Microsoft default. Change it if it's not expected.
+- Remove bloatware
+- Move taskbar to the top
+- Change background, lock screen, color
+- Show hidden files and extensions
 
-### Cmder
+### Install Programs
 
-See `cmder/README.md`
+Work and personal machines:
 
-### File System
+- Chrome
+- Spotify
+- Slack
+- Password manager
+- Mizage Divvy
+- Logitech Options
 
-Show hidden files and file extensions.
+Personal only:
 
-### Peripherals
+- Stepmania
+- Kindle
+- Adobe Digital Editions
+- Any ebook Converter
+- Skype
+- ExpressVPN
 
-See directory for setup
+### Configure Programs
 
-### Scoop
+Chrome
 
-See `scoop/README.md`
+- Sign in
+- Go to `Settings` -> `On Startup` and select `Continue where you left off`
 
-### Sublime Text 3
+## Configuration for Development Box
 
-See `sublime/README.md`
+Setup local directory:
 
-### Visual Studio Code
+- Create `Workspace` folder
+- Create `Core` folder in `Workspace`
+- Create company-specific folder in `Workspace`
+- Add `Workspace` to the Quick Access side bar
 
-See `vscode/README.md`
+### Install Programs
+
+- Firefox (to test web apps)
+- Atom
+- Sublime Text 3
+- Visual Studio Code
+- GitKraken
+- JetBrains Rider
+- JetBrains DataGrip
+- Postman
+- Mobster
+- PuTTY
+- Zoom
+
+### Configure Programs
+
+Turn on desktop notifications for email and calendar
+
+Configure Chrome for work:
+
+- Create a Google account using your company email address
+- Turn on syncing
+- Add extensions: password manager, Adblock, Privacy Badger, React Developer Tools
+- Add Admin bookmarks, sign in, add passwords to password manager (email, Slack, documents, HR)
+
+Clone development notes and dotfile repositories into `Core`
+
+Run the scoop `Install` script in dotfiles as an admin in PowerShell (may need to turn off firewall)
+
+Setup dotfiles (see subfolders)
