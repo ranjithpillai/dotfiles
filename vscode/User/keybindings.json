@@ -1,12 +1,30 @@
 // Place your key bindings in this file to override the defaults
 [
-    {
-        "key": "ctrl+alt+e",
-        "command": "revealFileInOS"
-    },
-    {
-        "key": "shift+alt+r",
-        "command": "-revealFileInOS",
-        "when": "!editorFocus"
-    }
+  {
+    "key": "ctrl+alt+e",
+    "command": "revealFileInOS"
+  },
+  {
+    "key": "shift+alt+r",
+    "command": "-revealFileInOS",
+    "when": "!editorFocus"
+  },
+  {
+    "key": "ctrl+b",
+    "command": "editor.action.setSelectionAnchor",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+k ctrl+b",
+    "command": "-editor.action.setSelectionAnchor",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+k ctrl+b",
+    "command": "workbench.action.toggleSidebarVisibility"
+  },
+  {
+    "key": "ctrl+b",
+    "command": "-workbench.action.toggleSidebarVisibility"
+  }
 ]
