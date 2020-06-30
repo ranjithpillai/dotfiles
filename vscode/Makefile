@@ -5,4 +5,4 @@ sync-extensions:
 	code --list-extensions > extensions.txt
 
 install-extensions:
-	cat extensions.txt | xargs -L 1 code --install-extension
+	dos2unix extensions.txt | cat extensions.txt | xargs -L 1 code --install-extension
