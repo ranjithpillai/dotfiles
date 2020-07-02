@@ -20,5 +20,6 @@ dotfiles=cd %UserProfile%\Workspace\Core\dotfiles\
 notes=cd %UserProfile%\Workspace\Core\development-notes
 notesc=cd %UserProfile%\Workspace\Core\development-notes\2020
 personal=cd %UserProfile%\Workspace\Personal
+q4j=cd "%UserProfile%\Workspace\Quest for Justice"
 
 open=explorer
