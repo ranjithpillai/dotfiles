@@ -10,5 +10,5 @@ Install customization software: https://www.logitech.com/en-us/product/options
 - Top button: Forward
 - Bottom button: Back
 - Middle button: Middle
-- Scroll left: Scroll left
-- Scroll right: Scroll right
+- Scroll left: Desktop (previous)
+- Scroll right: Desktop (next)
