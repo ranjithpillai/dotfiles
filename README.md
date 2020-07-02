@@ -58,6 +58,7 @@ Setup local directory:
 - Visual Studio Code
 - GitKraken
 - JetBrains Rider
+- JetBrains WebStorm
 - JetBrains DataGrip
 - Postman
 - Mobster
