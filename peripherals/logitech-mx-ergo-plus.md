@@ -6,9 +6,9 @@ Install customization software: https://www.logitech.com/en-us/product/options
 
 ## Customization
 
-- Side button: Switch applications
-- Top button: Forward
-- Bottom button: Back
-- Middle button: Middle
-- Scroll left: Desktop (previous)
-- Scroll right: Desktop (next)
+- Side button: Screenshot tool
+- Index button top: Forward
+- Index button bottom: Back
+- Scroll wheel center: Middle button
+- Scroll wheel left: Desktop (previous)
+- Scroll wheel right: Desktop (next)

@@ -19,6 +19,9 @@ scoop install firacode
 Write-Host "installing utilities..."
 scoop install cmder-full git git-lfs putty openssl make
 
+Write-Host "installing Protobuf utilities..."
+scoop install protobuf protoc-gen-grpc-web
+
 Write-Host "installing Java utilities..."
 scoop install maven
 
