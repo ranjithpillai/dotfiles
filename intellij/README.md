@@ -3,24 +3,28 @@
 ## Set up
 
 - Install the plugins below
-- Select option to "Always Select Opened File": https://www.jetbrains.com/help/rider/Project_Tool_Window.html#toolbar-buttons
+- Update Material UI theme
+- Use Fira Code as the default font
 - Set Prettier to run on save
 
 ## Installed Plugins
-
-Look and Feel:
 
 - Atom Material Icons
 - Material Theme UI
 - Nyan Progress Bar
 - Rainbow Brackets
-
-Grammar:
-
 - Grazie
 
-### Rider
+Markdown:
 
-- SonarLint: Java Linting and more
+- Markdown
 
-### WebStorm
+JavaScript:
+
+- Prettier
+- Codota: AI code completion
+- Json Parser
+
+Protocol Buffer:
+
+- Protocol Buffer Editor
