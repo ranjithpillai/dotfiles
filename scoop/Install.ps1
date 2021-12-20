@@ -19,7 +19,7 @@ Write-Host "installing font..."
 scoop install firacode
 
 Write-Host "installing utilities..."
-scoop install git git-lfs putty openssl make 7zip brave fzf sudo which
+scoop install git git-lfs putty openssl make 7zip brave fzf sudo which neovim mingw youtube-dl
 
 Write-Host "installing Java and related utilities..."
 scoop install liberica17-full-jdk
