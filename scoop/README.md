@@ -7,7 +7,8 @@ Install [Scoop](https://github.com/lukesampson/scoop) and packages.
 The script requires PowerShell 5.
 
 1. Open PowerShell as an admin
-2. Run `./Install.ps1`
+2. Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass (if you getting error "....ps1 is not digitally signed. The script will not execute on the system" when you execute Install.ps1 file)
+3. Run `./Install.ps1`
 
 If `scoop` or a package is already installed, the installer will skip it.
 
