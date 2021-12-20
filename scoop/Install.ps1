@@ -12,18 +12,21 @@ if (Get-Command scoop -ErrorAction SilentlyContinue)
 Write-Host "adding buckets..."
 scoop bucket add extras
 scoop bucket add nerd-fonts
+scoop bucket add jetbrains
+scoop bucket add java
 
 Write-Host "installing font..."
 scoop install firacode
 
 Write-Host "installing utilities..."
-scoop install cmder-full git git-lfs putty openssl make
+scoop install git git-lfs putty openssl make 7zip brave fzf sudo which
 
-Write-Host "installing Protobuf utilities..."
-scoop install protobuf protoc-gen-grpc-web
-
-Write-Host "installing Java utilities..."
+Write-Host "installing Java and related utilities..."
+scoop install liberica17-full-jdk
 scoop install maven
 
+Write-Host "installing IDEs"
+scoop install IntelliJ-IDEA vscode
+
 Write-Host "installing Nodejs..."
-scoop install nodejs-lts
+scoop install nodejs-lts yarn
