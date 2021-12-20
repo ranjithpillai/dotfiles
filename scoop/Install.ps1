@@ -17,6 +17,7 @@ scoop bucket add java
 
 Write-Host "installing font..."
 scoop install firacode
+scoop install JetBrainsMono-NF
 
 Write-Host "installing utilities..."
 scoop install git git-lfs putty openssl make 7zip brave fzf sudo which neovim mingw youtube-dl
